@@ -52,6 +52,7 @@ pygmentCodeFences = true
   spotify = "username"
   bandcamp = "username"
   itchio = "username"
+  keybase = "username"
 
 
 [[menu.main]]
