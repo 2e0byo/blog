@@ -1,9 +1,14 @@
-## Front Page Content
+This website [is not masterful](/page/about).  It is devoted to things
+I do either because they need doing, or because I enjoy doing them,
+and which someone else might possibly want to do.  Perhaps if my
+mistakes are included here in enough detail someone else might not
+make them...
 
-This website is powered by [GitLab Pages](https://about.gitlab.com/features/pages/)
-/ [Hugo](https://gohugo.io) and can be built in under 1 minute.
-Literally. It uses the `beautifulhugo` theme which supports content on your front page.
-Edit `/content/_index.md` to change what appears here. Delete `/content/_index.md`
-if you don't want any content here.
+I am not an engineer, or a software developer, or a mechanic, or a
+carpenter, or a bookbinder, or anything else I might pretend to be on
+these pages.  I am just an Amateur, but in real life I’m a PhD student
+in Theology.  Except insofar as the aformentioned things I am not come
+in to it, this is unlikely to be apparent here.
 
-Head over to the [GitLab project](https://gitlab.com/pages/hugo) to get started.
+This website is purely static, and is the successor to [a wordpress
+blog](/post/2020-09-28-leaving-wordpress).
