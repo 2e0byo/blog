@@ -2,7 +2,7 @@
 title: 'A lesson in Ferric Chloride'
 date: Wed, 11 Jul 2018 14:41:48 +0000
 draft: false
-tags: ['Workbench']
+categories: ['Workbench']
 bigimg: [{src: "/img/ferric_damage.jpg"}]
 ---
 
