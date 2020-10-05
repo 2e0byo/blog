@@ -16,7 +16,7 @@ pygmentCodeFences = true
 [Params]
   subtitle = "Master of None"
   logo = "img/planing.png"
-  favicon = "img/favicon.ico"
+  # favicon = "img/favicon.ico"
   dateFormat = "January 2, 2006"
   commit = false
   rss = true
