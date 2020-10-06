@@ -4,6 +4,7 @@ date: Sun, 28 Jul 2019 13:52:03 +0000
 draft: false
 tags: ['Repairs']
 ---
+{{<load-photoswipe>}}
 
 I arrived back yesterday to discover that the fridge, or more
 specifically the fridge-freezer, had been off for at least a
@@ -96,11 +97,15 @@ new one, but that would take at least a day with hot wire and
 sandpaper to get anything like the original shape. Instead, here it is
 soaking in an improvised bleach bath, weighed down with two paving
 bricks:
-![DSCF1307](https://ofalltrades126687660.files.wordpress.com/2019/07/dscf1307.jpg)
+
+{{<figure src="/img/dscf1307.jpg" caption="">}}
+
 Well, we'll see what that does. Meanwhile the drip tray had to be
 removed and cleaned, and the exit pipe corked and filled with
 ‘plughole cleaner’:
-![DSCF1299](https://ofalltrades126687660.files.wordpress.com/2019/07/dscf1299.jpg)
+
+{{<figure src="/img/dscf1299.jpg" caption="">}}
+
 The exif on those pictures is accurate. Time for dinner and bed. In
 the morning, with great difficulty I took the box of water outside and
 emptied it (water: 1kgdm^-1; there are a few bucketfuls in there). The

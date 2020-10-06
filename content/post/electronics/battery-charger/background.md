@@ -3,7 +3,7 @@ title: 'Background'
 date: Thu, 19 Jul 2018 12:50:36 +0000
 draft: false
 categories: ['Battery Charger']
-tags: ['orphaned projects']
+tags: ['orphaned projects', 'Battery Charger']
 ---
 
 There are lots of 'smart' chargers out there.  Most of them boast that
@@ -18,7 +18,9 @@ vacations ago, as a break from reading, I converted an old analogue
 ammeter into a basic adjustable-current charger with current and
 voltage read-off.  The current regulation is not particularly clever.
 It uses the 'trick' I devised for my AS Electronics coursework
-![current_reg1](https://ofalltrades126687660.files.wordpress.com/2018/07/current_reg1.jpg)
+
+{{<figure src="/img/current_reg1.jpg" caption="">}}
+
 Unfortunately I neglected to allow for heat, and this thing drifts
 after a while.  It does eventually stabilise, but not much of a
 regulator.  But I _also_ had an ARM MBed someone gave me, so I logged
@@ -30,10 +32,13 @@ The usual, sensible solution is to put the resistive element in the
 _adj_ line, which avoids power dissipation in it.  But oh well.  Here,
 incidentally, is the only picture I can find of the coursework.  It wasn't
 pretty, but it
-worked. ![DSCF3093](https://ofalltrades126687660.files.wordpress.com/2018/07/dscf3093.jpg)
+worked. 
+
+{{<figure src="/img/dscf3093.jpg" caption="">}}
+
 It used RDL / RDTL logic for everything; I was being difficult.
 
-### Wishlist
+# Wishlist
 
 The ability to watch the charge on a computer is very useful: I've
 been able to recover some 'dead' batteries by watching the curve at

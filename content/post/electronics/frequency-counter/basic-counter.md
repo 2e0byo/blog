@@ -4,6 +4,7 @@ date: Thu, 02 Aug 2018 16:04:41 +0000
 draft: false
 tags: ['Frequency Counter']
 ---
+{{<load-photoswipe>}}
 
 Now that we have a working counter and display the next thing to look
 at is the timebase.  The timebase I built when first working on this

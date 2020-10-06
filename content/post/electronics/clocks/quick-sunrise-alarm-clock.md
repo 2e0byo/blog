@@ -55,7 +55,7 @@ a '40w' bulb.  The next step was to try PWM by switching the original
 low value resistors with a mosfet (bonding the floating ouput of a
 bench power supply with the ICs internally generated vcc).  For this
 the [Pic Development
-Board](https://ofalltrades126687660.wordpress.com/2018/07/19/pic-development-board/)
+Board](post/electronics/pic-development-board)
 was used.  First tests were successful, so I went hunting for an
 optoisolator, and tried using that instead of the mosfet.  It worked
 (a slightly lower resistor was needed, I seem to remember, to get the
