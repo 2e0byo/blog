@@ -2,7 +2,6 @@
 title: 'CoffeePot, short and stout; here''s my handle...'
 date: Thu, 23 May 2019 18:44:05 +0000
 draft: false
-tags: ['Repairs', 'Workbench']
 categories: ['Repairs']
 ---
 

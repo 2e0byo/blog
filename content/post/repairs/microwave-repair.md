@@ -2,7 +2,7 @@
 title: 'Microwave repair'
 date: Wed, 11 Jul 2018 14:24:34 +0000
 draft: false
-tags: ['repairs']
+categories: ['repairs']
 bigimg: [{src: "/img/dscf10751.jpg"}]
 ---
 

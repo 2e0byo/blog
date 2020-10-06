@@ -2,7 +2,8 @@
 title: 'Quick Sunrise Alarm Clock'
 date: Tue, 14 Apr 2020 13:42:14 +0000
 draft: false
-categories: ['Clocks', 'electronics']
+categories: ['electronics']
+tags: ['clocks']
 bigimg: [{src: "/img/dscf2642-1.jpg"}, {src: "/img/dscf2648-1.jpg"}]
 ---
 {{<load-photoswipe>}}
