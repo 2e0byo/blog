@@ -3,6 +3,7 @@ title: 'Networked Clock with Hands'
 date: Sun, 12 Jan 2020 22:48:29 +0000
 draft: false
 tags: ['Clocks']
+categories: ['Electronics']
 bigimg: [{src: "/img/dscf3203.jpg"}, {src: "/img/dscf1207.jpg"}, {src: "/img/dscf1208.jpg"}]
 ---
 

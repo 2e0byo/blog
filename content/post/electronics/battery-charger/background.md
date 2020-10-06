@@ -2,7 +2,7 @@
 title: 'Background'
 date: Thu, 19 Jul 2018 12:50:36 +0000
 draft: false
-categories: ['Battery Charger']
+categories: ['Electronics']
 tags: ['orphaned projects', 'Battery Charger']
 ---
 

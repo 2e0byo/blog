@@ -2,7 +2,7 @@
 title: 'How To Break a Freezer'
 date: Sun, 28 Jul 2019 13:52:03 +0000
 draft: false
-tags: ['Repairs']
+categories: ['Repairs']
 ---
 {{<load-photoswipe>}}
 
