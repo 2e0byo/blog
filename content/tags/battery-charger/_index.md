@@ -1,4 +1,5 @@
 ---
+title: "Battery Charger"
 ---
 This project never got anywhere; I generally just use my [power
 supply](LINK HERE) these days.  Some day I may get round to building
