@@ -2,8 +2,8 @@
 title: 'Proof of Concept'
 date: Fri, 20 Jul 2018 07:30:59 +0000
 draft: false
-categories: ['Battery Charger']
-tags: ['orphaned projects']
+categories: ['Electronics']
+tags: ['orphaned projects', 'Battery charger']
 ---
 
 By this point we have all we need for a basic charge, and I do
@@ -77,7 +77,7 @@ gives us everything we need for a first basic test.  Here's the rather
 hasty mock-up.  Note the potential divider feeding the ADC to protect
 it from the full voltage.
 
-![dscf11131.jpg](https://ofalltrades126687660.files.wordpress.com/2018/07/dscf11131-e1532011094813.jpg)
+{{<figure src="/img/dscf11131-e1532011094813.jpg" caption="">}}
 
 Unfortunately I deleted the log, so I can't screenshot gnuplot, but
 here's a screenshot from the code I wrote to play with termination
@@ -85,6 +85,6 @@ conditions.  In reality the curve continues to the right and starts
 climbing again, which is when we're into overcharge, but I truncated
 the data.
 
-![overcharge](https://ofalltrades126687660.files.wordpress.com/2018/07/overcharge.png)
+{{<figure src="/img/overcharge.png" caption="">}}
 
 Clearly, it works.  Now to get it to work out when to _stop_ charging.

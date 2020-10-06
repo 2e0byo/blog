@@ -20,13 +20,13 @@ But it came with not only an (ungrammatical) warranty, but also a
 spare silicone sealing ring and filter!  So all is not lost.) Here is
 the dismembered carcass:
 
-![DSCF1255](https://ofalltrades126687660.files.wordpress.com/2019/05/dscf1255.jpg)
+{{<figure src="/img/dscf1255.jpg" caption="">}}
 
 Below the remains of the handle is a piece of beech I obtained
 _gratis_ at the wood-recycling place.  And here is an odd and rather
 eclectic selection of tools:
 
-![DSCF1254](https://ofalltrades126687660.files.wordpress.com/2019/05/dscf1254.jpg)
+{{<figure src="/img/dscf1254.jpg" caption="">}}
 
 I'm not sponsored by Magnusson (though I'll happy sign a contract).
 But apparently all the local tool shops are.  The square comes with a
@@ -34,7 +34,7 @@ worrying sticker saying it is only 'approximate' (!) but is actually
 fine.  First thing is to mark out and cut the block to size so we can
 work on the inner face, where the handle meets the pot:
 
-![DSCF1257](https://ofalltrades126687660.files.wordpress.com/2019/05/dscf1257.jpg)
+{{<figure src="/img/dscf1257.jpg" caption="">}}
 
 I had to trim around a few holes.  Now, the profile at the end is
 rather complicated, and involved a few blind grooves about 3mm wide
@@ -43,7 +43,7 @@ workshop—would just laminate up a piece.  Instead I decided to see
 what I could do with a little judicial abuse of a tenon saw.  First,
 two diagnal cuts:
 
-![DSCF1258](https://ofalltrades126687660.files.wordpress.com/2019/05/dscf1258.jpg)
+{{<figure src="/img/dscf1258.jpg" caption="">}}
 
 Then (and there are no picture of this, because I don't want this blog
 to be censored) the abuse of a 1.5mm drill bit, which eventually
@@ -56,23 +56,28 @@ And with a little work we have grooves in the right place. The rest is
 nasty fiddly cutting and filing.  Then the grand profile rough cut
 with the tenon saw:
 
-![DSCF1259](https://ofalltrades126687660.files.wordpress.com/2019/05/dscf1259.jpg)
+{{<figure src="/img/dscf1259.jpg" caption="">}}
 
 At this point I had the clever idea™ of chopping out the waste with a
 chisel.  Alas my 'scrap' was rather poor, and the end went and split,
 so here it is gluing up:
 
-![DSCF1260](https://ofalltrades126687660.files.wordpress.com/2019/05/dscf1260.jpg)
+{{<figure src="/img/dscf1260.jpg" caption="">}}
 
 Another sunny morning, and rather more rough shaping to be done, and
 then, tediously, filing, filing, sanding:
 
-![DSCF1261](https://ofalltrades126687660.files.wordpress.com/2019/05/dscf1261.jpg)
+{{<figure src="/img/dscf1261.jpg" caption="">}}
 
 I always hated this kind of work at school.  Also, I'm beginning to
 think I've made it far too long.  Never mind: now to measure and drill
 the holes.  First is easy, second will be guesswork: 
-\[gallery ids="296,297" type="rectangular"\] 
+
+{{<gallery caption-effect="fade">}}
+	{{<figure src="/img/dscf1262.jpg" caption="">}}
+	{{<figure src="/img/dscf1263.jpg" caption="">}}
+{{</gallery>}}
+
 
 As you can see, I missed quite
 badly.  But in the end I didn't have any M4 bolts in the right length,
@@ -80,7 +85,11 @@ so I drilled it all out to 5mm—there's plenty of metal—and then cut
 down an M5 bolt to fit.  Then, of course, the top shoulders had to
 pared away with the chisel till the lid opened.  And there you have
 it: 
-\[gallery ids="298,299" type="rectangular"\] 
+
+{{<gallery caption-effect="fade">}}
+	{{<figure src="/img/dscf1264.jpg" caption="">}}
+	{{<figure src="/img/dscf1265.jpg" caption="">}}
+{{</gallery>}}
 
 It looks, I think, heartily silly.  It is also far too large.  But it
 _works_ fine, it cost me nothing (but 5 hours' work in the sun---but I
