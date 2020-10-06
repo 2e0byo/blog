@@ -28,7 +28,12 @@ stand—sorry, lie—the lying press in.  But you can get away with a
 chisel to cut off the edges, and balance the press on old timber; so I
 never got round to the tub or the plough. It still, largely, works:
 
-\[gallery ids="143,144,145" type="rectangular"\]
+{{<gallery caption-effect="fade">}}
+	{{<figure src="/img/book1.jpg" caption="">}}
+	{{<figure src="/img/book2.jpg" caption="">}}
+	{{<figure src="/img/book3.jpg" caption="">}}
+{{</gallery>}}
+
 
 …at least, if the chisel is nice and sharp. Now, about those other two
 components…  the plough will have to await another post, though I
