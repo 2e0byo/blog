@@ -50,34 +50,37 @@ pygmentCodeFences = true
     url = "page/about/"
     weight = 2
 
-[[menu.main]]
-    name = "Repairs"
-    url = "categories/repairs"
-    weight = 3
+# [[menu.main]]
+#     name = "Repairs"
+#     url = "categories/repairs"
+#     weight = 3
+
+# [[menu.main]]
+#     identifier = "Electronics"
+#     name = "Electronics"
+#     weight = 3
+#     url = "categories/electronics"
+
+# [[menu.main]]
+#     parent = "Electronics"
+#     name = "Battery Chargers"
+#     url = "categories/battery-charger"
+
+
+# [[menu.main]]
+#     name = "Bookbinding"
+#     url = "categories/bookbinding"
+#     weight = 3
 
 [[menu.main]]
-    identifier = "Electronics"
-    name = "Electronics"
-    weight = 3
-    url = "categories/electronics"
+    name = "Project by..."
 
 [[menu.main]]
-    parent = "Electronics"
-    name = "Battery Chargers"
-    url = "categories/battery-charger"
-
-
-[[menu.main]]
-    name = "Bookbinding"
-    url = "categories/bookbinding"
-    weight = 3
-
-[[menu.main]]
-    name = "Tags"
+    parent = "Project by..."
+    name = "Tag"
     url = "tags"
-    weight = 4
 
 [[menu.main]]
-    name = "Categories"
+    parent = "Project by..."
+    name = "Category"
     url = "categories"
-    weight = 4
