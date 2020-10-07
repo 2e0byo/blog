@@ -13,12 +13,11 @@ the latter by me after around 11pm.
 This website existed for a while on wordpress.com.  It was the natural
 choice: everyone uses wordpress to manage blogs, and this is little
 more than a blog.  On the other hand, writing in a web browser is
-irritating ([writing is what text editors are
-for](post/writing-text-editors)) and does one really need the whole
-wordpress architecture to serve a lot of static pages and images?
-Wordpress.com won’t even let you install plugins on the free tier, so
-it’s not like I was doing anything with all that dynamic ability
-anyhow.
+irritating (writing is what text editors are for) and does one really
+need the whole wordpress architecture to serve a lot of static pages
+and images?  Wordpress.com won’t even let you install plugins on the
+free tier, so it’s not like I was doing anything with all that dynamic
+ability anyhow.
 
 Enter [gitlab pages](https://docs.gitlab.com/ee/user/project/pages/)
 and [Hugo](https://gohugo.io/).  Gitlab, not Github, simply because
