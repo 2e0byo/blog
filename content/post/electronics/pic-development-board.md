@@ -5,7 +5,7 @@ draft: false
 categories: ['Electronics']
 ---
 
-As part of the [Battery Charger](/categories/battery-charger/)
+As part of the [Battery Charger](/tags/battery-charger/)
 project I need a basic PIC dev board.  I built one a long time ago for
 A2 coursework, and I even found the artwork lying around, but the
 tracks and pads were too small for hand etching and drilling.  Trying

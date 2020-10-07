@@ -1,5 +1,5 @@
 ---
-title: 'Poor Man''s Rasberry Pi'
+title: 'Poor Man''s Raspberry Pi'
 date: Thu, 19 Jul 2018 09:58:16 +0000
 draft: false
 categories: ['Computing', 'Electronics']
