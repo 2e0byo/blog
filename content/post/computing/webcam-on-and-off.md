@@ -74,6 +74,7 @@ where the colours are html codes defined elsewhere.  This is then
 injected into the json:
 
 ```python
+webcam, colour = webcam_status()
 j.insert(0, {"full_text": webcam, "name": "webcam", "color": colour})
 ```
 
