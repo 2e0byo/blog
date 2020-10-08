@@ -38,7 +38,7 @@ def get_webcam():
     return cameras
 ```
 
-Liable to have fals positives if a digital camera is plugged in, but
+Liable to have false positives if a digital camera is plugged in, but
 better safe than sorry (don’t go running `--disable` unless you’re
 *sure* only one webcam is attached...)
 
@@ -55,7 +55,7 @@ and 2. they have a bound driver.  I run [i3](https://i3wm.org/) and
 use [i3status](https://i3wm.org/i3status/) with a python wrapper
 script as per the docs to display the status of `redshift` and the
 amount of time I have spent typing at the computer that day, from my
-anti-rsi package.  Thus it was easy enough to add another function:
+[anti-rsi package](/post/coding/anti-rsi).  Thus it was easy enough to add another function:
 
 ```python
 def webcam_status():
