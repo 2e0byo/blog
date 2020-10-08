@@ -59,23 +59,26 @@ amount of time I have spent typing at the computer that day, from my
 
 ```python
 def webcam_status():
-    webcam = get_webcam()
-    if webcam:
-        status = get_webcam_status(webcam)
-        if status:
-            return "R", red
+    webcams = get_webcam()
+    statuses = []
+    for webcam in webcams:
+        if webcam:
+            status = get_webcam_status(webcam)
+            if status:
+                statuses.append(("R", red))
+            else:
+                statuses.append(("", green))
         else:
-            return "", green
-    else:
-        return "O", orange
+            statuses.append(("O", orange))
+    return statuses
 ```
 
 where the colours are html codes defined elsewhere.  This is then
 injected into the json:
 
 ```python
-webcam, colour = webcam_status()
-j.insert(0, {"full_text": webcam, "name": "webcam", "color": colour})
+for webcam, colour in webcam_status():
+	j.insert(0, {"full_text": webcam, "name": "webcam", "color": colour})
 ```
 
 and if the webcam is recording, a red ‘R’ appears in the status line.
