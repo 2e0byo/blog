@@ -1,6 +1,6 @@
 ---
 title: "Shaver Repair"
-date: 2020-10-11T20:21:31+01:00
+date: 2020-04-18
 draft: false
 categories: ["Repairs"]
 tags: ["Lockdown work"]
