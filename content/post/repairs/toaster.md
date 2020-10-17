@@ -45,7 +45,7 @@ antennas with ready-fitted reverse-SMA connectors.  They're no better
 than the antennas without---I've seen 24db advertised, and that will
 cause a _lot_ of interference if it's not very carefully sited in a
 remote area---they're just more expensive.  Did some nutcase
-beaurocrat deside that if we couldn't take our toasters apart, we
+bureaucrat decide that if we couldn't take our toasters apart, we
 wouldn't die of electrocution?  And how many die of electrocution from
 taking their toasters apart?  If it's more than one a year, I fear we
 should keep it quiet---in the current climate they _might_ just lock
