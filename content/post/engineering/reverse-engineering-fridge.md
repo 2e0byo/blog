@@ -190,6 +190,6 @@ voltage multiplier is easy enough.  Switching current on the large
 relays is 50mA however, but with a soft-hold we can save current (so
 long as we don't switch too many at once).
 
-Time for part two: writing a fridge controller.
+Time for part two: [writing a fridge controller](/post/engineering/reverse-engineering-fridge2).
 
 
