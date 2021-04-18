@@ -119,7 +119,7 @@ How good does it need to be?  Not necessarily very good, though that
 would be nice.  I don't mind leaving the sensors in permanently if
 need be.
 
-After a bit of thought, I aggregated all the data, did a polynomial
+After a bit of thought, I aggregated all the data, did a polynomia[^1]l
 fit with numpy, excluded everything too far from the fit, did
 *another* fit on the resultant data, and generated a 3rd-order
 polynomial which fit the reduced data nicely:
@@ -248,6 +248,11 @@ characterise it a bit better.
 {"msg": "Deep freezing as freezing slowly", "msg_id": 88, "timestamp": "2021-1-22 19:50:27"}
 //response to status query
 {"msg": "{'heaters': False, 'fan': True, 'deep_freeze': True, 'compressor': True, 'light': False}", "msg_id": 202, "timestamp": "2021-1-22 20:2:2"}
-
-
 ```
+
+Eventually, I got round to having another look at the controller.  See part three:
+[fixing the defrost](/post/engineering/reverse-engineering-fridge3).
+
+[^1]: Obviously, this is a logarithmic (reverse-log) rather than polynomial fn.
+    But I was a bit daft the day I did this, and my day-job is in theology, not
+    maths. As it happened I dropped the thermistors entirely in the end.
