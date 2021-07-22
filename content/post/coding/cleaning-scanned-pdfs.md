@@ -55,7 +55,7 @@ up to a neat bunch of pdfs in some easy-to-find directory.  So I
 decided to _write_ the scripts and put them up somewhere.
 
 First off was a [cookiecutter
-template](https://2e0byo.gitlab.com/cookiecutter-process-scan) to make
+template](https://gitlab.com/2e0byo/cookiecutter-process-scan) to make
 the right dirs, which spits out something looking like this:
 
 ```
