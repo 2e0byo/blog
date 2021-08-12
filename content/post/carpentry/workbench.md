@@ -1,7 +1,7 @@
 ---
-title: "Workbench"
+title: "Workbench: first shot"
 date: 2020-10-07T15:34:19+01:00
-draft: true
+draft: false
 categories: ["Carpentry"]
 ---
 {{<load-photoswipe>}}
@@ -17,6 +17,17 @@ simply doesn’t get to watch a good craftsman up close very often, but
 the ability to pause, zoom, replay, and see _exactly_ how to position
 your hands and body when paring with a chisel, for example, is worth
 any amount of textbooks.
+
+Notably:
+
+- it's made from pine.  Pine, apparently, has the advantages (besides being
+  cheap) of gripping better, being lighter, and not mattering.  So you can put a
+  nail in it to hold a workpiece in place and not worry.
+- stability comes not from weight, but from the massive (6") front apron and its
+  dovetails
+- the front dovetails are made with a gap (about 1/16") to allow for movement in
+  the timber.  (This makes sense as the notched edge is what provides the
+  bracing, and the apron will get deeper rather than longer with moisture).
 
 That said I’ve changed a few things.  I have a small shed, so the
 bench had to be small---6’ in length, not the enormous 12’ of that
@@ -87,3 +98,7 @@ So now they could all be glued up:
 	{{<figure src="/img/workbench/legs_laminated_all.JPG">}}
 {{</gallery>}}
 
+By this point I was very unwell with something or other, and the PhD was
+starting in a few days.  The workbench sat unloved on the trestles in the shed
+for the best part of a year, until it was turned into an excellent bench under
+the motivational training of government functionaries; of which more in [part 2](/post/carpentry/workbench2)
