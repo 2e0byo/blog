@@ -5,7 +5,7 @@ draft: false
 categories: ['engineering', 'workbench']
 bigimg: [{src: "/img/dscf1236.jpg"}]
 ---
-{{<load-photoswipe>}}
+
 
 I have a piano to tune. And also to restore: a few hammer shafts to
 bend, hammers to file, a bit of crud to clean out, bridle straps to

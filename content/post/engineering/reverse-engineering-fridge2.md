@@ -4,7 +4,7 @@ date: 2021-01-21T15:42:44Z
 draft: false
 categories: ["Engineering"]
 ---
-{{<load-photoswipe>}}
+
 # Hardware
 
 So we have five mains circuits: the lamp, the fan, the heaters, the

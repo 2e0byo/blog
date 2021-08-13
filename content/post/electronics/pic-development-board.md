@@ -20,7 +20,7 @@ After rather too long I proudly examined the result:
 	{{<figure src="/img/2018-07-19-150302-screenshot-png.jpg" caption="">}}
 	{{<figure src="/img/2018-07-19-150330-screenshot-png.jpg" caption="">}}
 {{</gallery>}}
-{{<load-photoswipe>}}
+
 
 It's incredibly basic: just a few headers, crystal, usb, and a few
 resistors and capacitors.  The wiggle in that track is to balance up

@@ -4,7 +4,7 @@ date: Thu, 02 Aug 2018 16:04:41 +0000
 draft: false
 tags: ['Frequency Counter']
 ---
-{{<load-photoswipe>}}
+
 
 Now that we have a working counter and display the next thing to look
 at is the timebase.  The timebase I built when first working on this
@@ -35,7 +35,7 @@ I cleaned them off:
 	{{< figure thumb="-thumb" src="/img/dscf1138.jpg" caption="Before">}}
 	{{< figure thumb="-thumb" src="/img/dscf11401.jpg" caption="After">}}
 {{< /gallery >}}
-{{< load-photoswipe >}}
+
 
 And then took out two of the sliders.  Now if we connect the three
 poles together we have a twelve-way one-pole switch, which is much

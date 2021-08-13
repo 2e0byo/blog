@@ -5,7 +5,7 @@ draft: false
 categories: ['Electronics']
 tags: ['Frequency Counter']
 ---
-{{<load-photoswipe>}}
+
 
 I started this peice of test equipment when I was about 15, I think,
 built the timebase with enthusiasm, the counting chain with a bit

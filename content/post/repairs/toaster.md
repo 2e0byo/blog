@@ -4,7 +4,7 @@ date: 2020-10-11T21:01:29+01:00
 draft: false
 categories: ["Repairs"]
 ---
-{{<load-photoswipe>}}
+
 
 Somebody has bent the toaster.  It shouldn’t be looking like this:
 

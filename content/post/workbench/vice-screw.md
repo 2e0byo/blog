@@ -6,7 +6,7 @@ categories: ['Workbench']
 bigimg: [{src: "/img/dscf1069.jpg"}]
 ---
 
-{{<load-photoswipe>}}
+
 
 About five years ago now I stopped dreaming of a proper bench vice and
 built one from some old oak kitchen doors I rescued from a skip, an

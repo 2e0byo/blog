@@ -4,7 +4,7 @@ date: 2020-10-24T18:01:04+01:00
 draft: false
 categories: ["Coding"]
 ---
-<!-- {{<load-photoswipe>}} -->
+
 > This post is largely a log so I remember how to do it next time, but
 > if anyone else has a bunch of scans to convert, read on...
 

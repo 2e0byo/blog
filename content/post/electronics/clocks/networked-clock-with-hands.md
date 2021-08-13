@@ -39,7 +39,7 @@ aesthetically pleasing as possible:
 	{{<figure src="/img/2020-01-12-215057-screenshot.png" caption="">}}
 	{{<figure src="/img/dscf1150-1.jpg" caption="">}}
 {{</gallery>}}
-{{<load-photoswipe>}}
+
 
 
 This board is riddled with mistakes: the clock and latch are actually

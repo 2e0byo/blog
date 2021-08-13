@@ -4,7 +4,7 @@ date: 2021-08-11T19:14:29+02:00
 draft: false
 categories: ["Carpentry"]
 ---
-{{<load-photoswipe>}}
+
 
 [The first shot](/post/carpentry/workbench) at a workbench sat dormant for a fair while. Meanwhile it got
 cold---very very cold.  Then it got wet---very very wet.  Then it got hot---very

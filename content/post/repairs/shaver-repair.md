@@ -6,7 +6,7 @@ categories: ["Repairs"]
 tags: ["Lockdown work"]
 bigimg: [{src: "/img/shaver/in_situ.jpg"}]
 ---
-{{<load-photoswipe>}}
+
 
 My father’s electric shaver wasn’t holding charge; he asked if I could
 have a look at it and see if the internal battery could be replaced.

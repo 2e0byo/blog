@@ -4,7 +4,7 @@ date: 2020-10-11T20:44:46+01:00
 draft: false
 categories: ["Repairs"]
 ---
-{{<load-photoswipe>}}
+
 
 Our thermostat has an annoying feature.  If you press any button---but
 particularly the ‘OK’ button you have to press a lot to change

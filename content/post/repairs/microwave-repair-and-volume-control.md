@@ -4,7 +4,7 @@ date: 2020-10-11T20:02:51+01:00
 draft: false
 categories: ["Repairs"]
 ---
-{{<load-photoswipe>}}
+
 
 My microwave went on the blink, a few days before I got married.  It
 started turning itself on, randomly, as soon as it was plugged in.

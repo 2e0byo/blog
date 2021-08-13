@@ -5,7 +5,7 @@ draft: false
 categories: ['Electronics']
 bigimg: [{src: "/img/dscf3193.jpg"}]
 ---
-{{<load-photoswipe>}}
+
 
 I don't much like PCBs, but I like wiring ICs up even less.  Up till
 now I've made boards with the toner-transfer-and-any-old-container

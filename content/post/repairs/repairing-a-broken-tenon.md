@@ -4,7 +4,7 @@ date: Wed, 11 Jul 2018 14:54:31 +0000
 draft: false
 categories: ['Repairs']
 ---
-{{<load-photoswipe>}}
+
 
 This posed something of a problem: what do you do when a pinned tenon
 breaks?  The joint was too broken just to glue, neither surface was

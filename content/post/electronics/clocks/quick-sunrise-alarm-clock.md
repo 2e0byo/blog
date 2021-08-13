@@ -6,7 +6,7 @@ categories: ['electronics']
 tags: ['clocks', 'lamps']
 bigimg: [{src: "/img/dscf2642-1.jpg"}, {src: "/img/dscf2648-1.jpg"}]
 ---
-{{<load-photoswipe>}}
+
 
 This was a sudden impulse last summer: I'd seen a 'sunrise' alarm
 clock (which fades on slowly to simulate sunrise, theoretically

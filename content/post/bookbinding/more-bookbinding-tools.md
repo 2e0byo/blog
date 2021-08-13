@@ -5,7 +5,6 @@ draft: false
 categories: ['Bookbinding']
 bigimg: [{src: "/img/dscf3174.jpg"}]
 ---
-{{<load-photoswipe>}}
 
 
 A while ago I made one of those vices used for bookbinding which is

@@ -4,4 +4,4 @@ date: {{ .Date }}
 draft: true
 categories: ["{{ replace (replace .Dir "post/" "") "/" "" | title }}"]
 ---
-{{<load-photoswipe>}}
+

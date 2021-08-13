@@ -6,7 +6,7 @@ tags: ['Clocks']
 categories: ['electronics']
 bigimg: [{src: "/img/dscf1026.jpg"}]
 ---
-{{<load-photoswipe>}}
+
 
 This project began when the noise of the ethernet switch opposite my
 college room became unbearable.  I picked the room for the view, which

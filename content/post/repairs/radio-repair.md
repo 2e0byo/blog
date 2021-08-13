@@ -4,7 +4,7 @@ date: Sun, 02 Dec 2018 13:55:22 +0000
 draft: false
 categories: ['Electronics', 'Repairs']
 ---
-{{<load-photoswipe>}}
+
 
 The radio we use in the kitchen to make washing up bearable stopped
 working.  Specifically, it wouldn't turn on, but the power LED was

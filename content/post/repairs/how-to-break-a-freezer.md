@@ -4,7 +4,7 @@ date: Sun, 28 Jul 2019 13:52:03 +0000
 draft: false
 categories: ['Repairs']
 ---
-{{<load-photoswipe>}}
+
 
 I arrived back yesterday to discover that the fridge, or more
 specifically the fridge-freezer, had been off for at least a
@@ -86,7 +86,7 @@ anything gets into the insulation. Hmm.
   {{< figure src="/img/dscf1305.jpg" caption="" >}}
   {{< figure src="/img/dscf1306.jpg" >}}
 {{< /gallery >}}
-{{< load-photoswipe >}}
+
 
 Now, how does one clean polystyrene? I rubbed
 down with neat bleach and got all the surface mould off, but that's

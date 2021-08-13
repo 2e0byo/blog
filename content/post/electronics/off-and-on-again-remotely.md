@@ -43,7 +43,7 @@ intractable thing:
 	{{<figure src="/img/dscf1092.jpg" caption="Glue up">}}
 {{</gallery>}}
 
-{{<load-photoswipe>}}
+
 
 Well that wasn't too bad.  One face is screwed with _very_ small
 screws into small bits of ply glued on the inside of another face.

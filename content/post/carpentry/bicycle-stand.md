@@ -37,7 +37,6 @@ pared down with a chisel:[^1]
   {{<figure src="/img/dscf1219.jpg">}}
   {{<figure src="/img/dscf1218.jpg">}}
 {{</gallery>}}
-{{< load-photoswipe >}}
 
 Assemble, true up, glue and temporarily clamp against the try square,
 and then add two screws to hold the alignment:

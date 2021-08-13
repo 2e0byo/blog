@@ -4,7 +4,7 @@ date: 2021-01-18T20:36:37Z
 draft: false
 categories: ["Engineering"]
 ---
-{{<load-photoswipe>}}
+
 
 We have a Hotpoint FFA52 fridge-freezer.  It has previously given
 [much hardship](/post/repairs/how-to-break-a-freezer). It no longer

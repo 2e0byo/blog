@@ -4,7 +4,7 @@ date: 2021-04-18T20:04:40+01:00
 draft: true
 categories: ["Engineering"]
 ---
-{{<load-photoswipe>}}
+
 
 OpenFridge has been running the fridge since the first post, which apparently
 was in January. In that time:

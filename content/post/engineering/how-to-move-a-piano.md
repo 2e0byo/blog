@@ -6,7 +6,7 @@ categories: ['Workbench', 'Engineering']
 bigimg: [{src: "/img/img_5952.jpg"}, {src: "/img/img_5949.jpg"}]
 ---
 
-{{<load-photoswipe>}}
+
 
 Moving is not much fun.  Moving pianos is even less fun: you have all
 the difficulty of moving a 300kg object coupled with the worry that
