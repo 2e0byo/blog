@@ -32,8 +32,8 @@ device, but with the the contacts all so oxidsed most don't conduct.
 I cleaned them off:
 
 {{<gallery caption-effect="fade">}}
-	{{< figure thumb="-thumb" src="/img/dscf1138.jpg" caption="Before">}}
-	{{< figure thumb="-thumb" src="/img/dscf11401.jpg" caption="After">}}
+	{{<figure thumb="-thumb" src="/img/dscf1138.jpg" caption="Before">}}
+	{{<figure thumb="-thumb" src="/img/dscf11401.jpg" caption="After">}}
 {{</gallery>}}
 
 
@@ -55,9 +55,9 @@ fast one of those OpenWRT boards can bit-twiddle.  So I toggled a gpio
 with the shell (just echo '1' or '0' to the pseudo-file):
 
 {{<gallery caption-effect="fade" >}}
-	{{< figure thumb="-thumb" src="/img/dscf11421.jpg" caption="OpenWrt Board">}}
-	{{< figure thumb="-thumb" src="/img/dscf11431.jpg" caption="Waveform">}}
-	{{< figure thumb="-thumb" src="/img/dscf11441.jpg" caption="Count">}}
+	{{<figure thumb="-thumb" src="/img/dscf11421.jpg" caption="OpenWrt Board">}}
+	{{<figure thumb="-thumb" src="/img/dscf11431.jpg" caption="Waveform">}}
+	{{<figure thumb="-thumb" src="/img/dscf11441.jpg" caption="Count">}}
 {{</gallery >}}
 
 About 1.6KHz.  That's more than quick enough.  Here's another shot

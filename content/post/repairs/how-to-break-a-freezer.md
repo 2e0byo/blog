@@ -82,10 +82,10 @@ this stank. According to the internet, there's nothing you can do if
 anything gets into the insulation. Hmm. 
 
 
-{{< gallery caption-effect="fade" >}}
-  {{< figure src="/img/dscf1305.jpg" caption="" >}}
-  {{< figure src="/img/dscf1306.jpg" >}}
-{{< /gallery >}}
+{{<gallery caption-effect="fade">}}
+  {{<figure src="/img/dscf1305.jpg" caption="">}}
+  {{<figure src="/img/dscf1306.jpg">}}
+{{</gallery>}}
 
 
 Now, how does one clean polystyrene? I rubbed

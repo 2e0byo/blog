@@ -15,7 +15,7 @@ underneath, and most surprisingly for me—for my chemistry is rather
 rusty—the plastic cap of the clamp on the shelf in front of it. 
 
 Here's the damage control:
-{{< figure src="/img/ferric_damage.jpg" title="Ferric Damage: it really does etch..." >}}
+{{<figure src="/img/ferric_damage.jpg" title="Ferric Damage: it really does etch...">}}
 
 The studding was a mass of rust in the middle.  I hated to throw it,
 so I took most off with a wire brush and then, lacking a die, re-cut
