@@ -24,7 +24,7 @@ was even more of a nuisance, so that got sliced up first.
 
 ## Planters
 
-The OSB was cut with he plunge saw:
+The OSB was cut with the plunge saw:
 
 {{<figure src="/img/wedding/osb.jpg">}}
 
