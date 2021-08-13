@@ -1,4 +1,4 @@
-![Build Status](https://gitlab.com/2e0byo/2e0byo.gitlab.io/badges/master/pipeline.svg)
+![Build Status](https://gitlab.com/2e0byo/2e0byo.github.io/badges/master/pipeline.svg)
 
 ---
 
