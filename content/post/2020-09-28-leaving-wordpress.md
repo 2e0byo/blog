@@ -24,7 +24,10 @@ and [Hugo](https://gohugo.io/).  Gitlab, not Github, simply because
 all my repositories are already there (back in the day gitlab offered
 unlimited private repositories, which was very attractive).  Hugo
 because 1. it’s shockingly fast and 2. it’s written in Go, and I know
-nothing about Go; how better to find out?
+nothing about Go; how better to find out? **Update:** we are now on github
+pages.  Serving is slightly faster; Github Actions I actually know (unlike
+gitlab), and the hugo action is written in typescript, so it doesn't need to
+pull a docker container, which speeds up deploys.
 
 Thus, this site is now written very largely in markdown, in Emacs or
 Vim as the fancy takes me, pushed to a git repository, and appears
