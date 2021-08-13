@@ -31,10 +31,10 @@ So I took the case off: it seems this is a three-pole four-throw
 device, but with the the contacts all so oxidsed most don't conduct.
 I cleaned them off:
 
-{{< gallery caption-effect="fade" >}}
+{{<gallery caption-effect="fade">}}
 	{{< figure thumb="-thumb" src="/img/dscf1138.jpg" caption="Before">}}
 	{{< figure thumb="-thumb" src="/img/dscf11401.jpg" caption="After">}}
-{{< /gallery >}}
+{{</gallery>}}
 
 
 And then took out two of the sliders.  Now if we connect the three
