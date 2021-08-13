@@ -11,6 +11,8 @@ test:
   - master
 
 pages:
+  before_script:
+    - apk update && apk add git
   script:
   - hugo
   artifacts:
