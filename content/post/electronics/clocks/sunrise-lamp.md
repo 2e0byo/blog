@@ -4,7 +4,7 @@ date: 2021-08-19T13:28:58+02:00
 draft: false
 categories: ["Electronics", "clocks"]
 bigimg: [{src: "/img/lamp/lamp_finished.jpg"}]
-tags: ["Lockdown"]
+tags: ["Lockdown", "clocks", "lamps"]
 ---
 Every project is a prototype, which calls out for a second version avoiding the
 mistakes of the former.  The trick is to give the prototypes away; then one has
