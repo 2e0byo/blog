@@ -6,7 +6,7 @@ title = "Jack of All Trades"
 canonifyurls  = true
 
 DefaultContentLanguage = "en"
-theme = "beautifulhugo"
+theme = ["hugo-search-fuse-js", "beautifulhugo"]
 metaDataFormat = "yaml"
 pygmentsUseClasses = true
 pygmentCodeFences = true
@@ -52,6 +52,11 @@ enableGitInfo = true
     name = "About"
     url = "page/about/"
     weight = 2
+
+[[menu.main]]
+    name = "search"
+    url = "search/"
+    weight = 1
 
 # [[menu.main]]
 #     name = "Repairs"
