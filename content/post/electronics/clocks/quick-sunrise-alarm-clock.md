@@ -54,7 +54,7 @@ Putting various different resistors in here confirms we can control
 brightness from 'very dim' to 'very bright', although it's still only
 a '40w' bulb.  The next step was to try PWM by switching the original
 low value resistors with a mosfet (bonding the floating ouput of a
-bench power supply with the ICs internally generated vcc).  For this
+bench power supply with the IC's internally generated vcc).  For this
 the [Pic Development
 Board](/post/electronics/pic-development-board)
 was used.  First tests were successful, so I went hunting for an
@@ -156,4 +156,4 @@ the right of the clock's rate.
 The hardware has been in use since the summer,
 and has apparently had a noticeable impact on how quickly my sister
 wakes up, so that's something... No code online as it has been
-entirely rewritten.
+[entirely rewritten](/post/electronics/clocks/sunrise-lamp).
