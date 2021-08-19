@@ -3,6 +3,7 @@ title: "Wedding Carpentry"
 date: 2021-08-12T18:01:17+02:00
 draft: false
 categories: ["Carpentry"]
+tags: ["Lockdown"]
 ---
 
 Due to measures to combat the [epidemic of bigamous

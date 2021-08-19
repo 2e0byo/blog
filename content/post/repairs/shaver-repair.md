@@ -3,7 +3,7 @@ title: "Shaver Repair"
 date: 2020-04-18
 draft: false
 categories: ["Repairs"]
-tags: ["Lockdown work"]
+tags: ["Lockdown"]
 bigimg: [{src: "/img/shaver/in_situ.jpg"}]
 ---
 
