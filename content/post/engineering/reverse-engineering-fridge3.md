@@ -1,5 +1,5 @@
 ---
-title: "Reverse Engineering Fridge3"
+title: "Reverse Engineering a Fridge: Part 3"
 date: 2021-04-18T20:04:40+01:00
 draft: true
 categories: ["Engineering"]
