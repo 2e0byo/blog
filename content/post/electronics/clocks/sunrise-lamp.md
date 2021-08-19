@@ -198,7 +198,7 @@ lower current.  But I have a lot of 10K resistors.)
 {{<gallery caption-effect="fade">}}
     {{<figure src="/img/lamp/crossing_detector.jpg">}}
     {{<figure src="/img/lamp/crossing_detector2.jpg">}}
-    {{<figure src="/img/lamp/crossing_waveform.jpg">}}
+    {{<figure src="/img/lamp/crossing_waveform.jpg" caption="This is at 100Hz!">}}
 {{</gallery>}}
 
 In use it squeezes on one side of the HV side of the base of the lamp.
