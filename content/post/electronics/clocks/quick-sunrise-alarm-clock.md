@@ -157,3 +157,14 @@ The hardware has been in use since the summer,
 and has apparently had a noticeable impact on how quickly my sister
 wakes up, so that's something... No code online as it has been
 [entirely rewritten](/post/electronics/clocks/sunrise-lamp).
+
+## Addendum: Case
+
+Eventually I got round to making a basic hardboard box to put the lamp in.  Here
+it is, looking a little more like a real lamp:
+
+{{<gallery caption-effect="fade">}}
+	{{<figure src="/img/quick-sunrise/box1.jpg" caption="">}}
+	{{<figure src="/img/quick-sunrise/lamp1.jpg" caption="">}}
+	{{<figure src="/img/quick-sunrise/lamp2.jpg" caption="">}}
+{{</gallery>}}
