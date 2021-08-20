@@ -83,7 +83,7 @@ over the internet):
 
 {{<gallery caption-effect="fade">}}
     {{<figure src="/img/lamp/glow_test_shorted_mosfet.jpg">}}
-    {{<figure src="pwm.jpg">}}
+    {{<figure src="/img/lamp/pwm.jpg">}}
 {{</gallery>}}
 
 The trouble with this is that one depends upon a large capacitor to supply the
