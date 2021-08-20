@@ -40,7 +40,7 @@ enableGitInfo = true
   name = "John Morris"
   email = "2e0byo@gmail.com"
   github = "2e0byo"
-  github = "2e0byo"
+  gitlab = "2e0byo"
 
 
 [[menu.main]]
