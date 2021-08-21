@@ -47,6 +47,6 @@ better people out there.  Jack one may try to be of all trades, but
 one must resolve: master, then of none.  Or at any rate, I won't admit
 it here.
 
-[^1]: For instance in Dorthoy Sayers, who observed that no badly built
+[^1]: For instance in Dorothy Sayers, who observed that no badly built
 table ever came from the carpenter's workshop in Nazareth, or in the
 excellent reflections on work of Jacques Maritain.
