@@ -7,7 +7,7 @@ categories: ["Carpentry", "Engineering"]
 Exactly how flat does a sharpening stone need to be?  Exactly how flat, for that
 matter, does a plane need to be?
 
-Here is a toy plane, a soft building block, and a half brick (not cut by me):
+I'm on holiday.  Here is a toy plane, a soft building block, and a half brick (not cut by me):
 
 {{<figure src="/img/plane-repair/plane1.jpg">}}
 
