@@ -1,7 +1,7 @@
 ---
 title: "Plane Repair"
 date: 2021-08-21T20:43:56+02:00
-draft: true
+draft: false
 categories: ["Carpentry", "Engineering"]
 ---
 Exactly how flat does a sharpening stone need to be?  Exactly how flat, for that
