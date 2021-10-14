@@ -1,5 +1,5 @@
 ---
-title: ClosedFridge: RIP OpenFridge
+title: "ClosedFridge: RIP OpenFridge"
 date: 2021-10-14T12:07:57+01:00
 draft: False
 categories: ["Engineering"]
