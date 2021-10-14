@@ -346,9 +346,9 @@ suspect) EMI related reasons.
 OpenFridge controlled an otherwise dead fridge-freezer correctly for over a
 year.  I bought this fridge-freezer for £90 around three years ago: since then:
 
-* [the power failed]() with a full load of food and I had to clean it out
-* [the controller failed]() and was replaced with a breadboarded controller
-* [the defrosting failed]() with that controller after it got into a conflicted
+* [the power failed](/post/repairs/hot-to-break-a-freezer) with a full load of food and I had to clean it out
+* [the controller failed](/post/engineering/reverse-engineering-fridge) and was replaced with a breadboarded controller
+* [the defrosting failed](/post/engineering/reverse-engineering-fridge3) with that controller after it got into a conflicted
   state (heating and cooling at once) and it was extensively re-written to avoid
   conflicts.  (This worked very well and is the basis for all embedded code I've
   written since.)
