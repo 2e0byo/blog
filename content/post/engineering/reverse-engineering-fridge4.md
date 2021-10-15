@@ -242,8 +242,7 @@ Here is the defrosting code.  It contains only one error:
 
 ```python
 async def _defrost():
-    i = 0
-    while i < 60:
+    for i in range(60):
         try:
             hal.fridge_freezer.defrosting = True
             break
