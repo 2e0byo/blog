@@ -131,28 +131,67 @@ in turn looks it up in `.authinfo.gpg`, which looks something like:
 machine outlook.office365.com login EMAIL port 587 smtp-auth xoauth2 password PASS
 ```
 
-Now, how do we get the access token?  Somewhere in that thread a horrible hack
-was mentioned, and I decided to use it.  We can get an access token from the
-refresh token like this (this took me far too long to figure out, but was
-apparently so trivial to the original poster it wasn't even mentioned):
+Now, how do we get the access token?  One option is just to put an access token
+in here.  I ended up doing something else, which feels much less like a hack
+than putting a function in `password` and taking advantage of the fact that the
+content of `password` is wrapped up in a function and has to be called (in any
+case I couldn't get this to work[^1], but it's mentioned in the thread).  First we
+have a very simple wrapper function to get the token:
 
 ```lisp
-
-(oauth2-token-access-token
- (oauth2-refresh-access
-  (make-oauth2-token
-   :refresh-token "<TOKEN>"
-   :token-url "https://login.microsoftonline.com/common/oauth2/v2.0/token"
-   :client-id "<THUNDERBIRD CLIENT ID>"
-   :client-secret "<THUNDERBIRD CLIENT SECRET>"
-   )))
+(defun get-access-token (auth)
+  "Get access token.  AUTH is a plist with the right keys from 
+  auth-search.
+  
+  Returns just the access token as a string extracted from the
+  oauth2 struct."
+  (oauth2-token-access-token
+   (oauth2-refresh-access
+    (make-oauth2-token
+     :refresh-token (funcall (plist-get auth :secret))
+     :token-url (plist-get auth :token-url)
+     :client-id (plist-get auth :client-id)
+     :client-secret (plist-get auth :client-secret)))))
 ```
-Where the refresh token is the one we obtained earlier.  I simply placed this
-code (without line breaks) in the password field of the authinfo line.  Since
-emacs *evaluates* the field you can put arbitrary code in it, and in effect
-perform code injection for a good purpose.  A better solution might be to store
-the refresh token in one place and read it from there, so if we ever have to
-change it it's easier.  Reading file contents is surprisingly [odd in emacs](https://stackoverflow.com/questions/34432246/):
+
+Then we put the right keys in our `authinfo.gpg`.  I haven't bothered hiding
+anything except the refresh token, but apparently a patch has made it/will make
+it upstream to allow you to specify more than one hidden field.  Since this is
+stored in a gpg encrypted file it's safe on disk anyhow.  And anyhow the key
+storage for offlineimap is necessarily a lot less secure, since I want it to run
+without user interaction.
+
+The trouble is that the method defined for xauth2 authentication in smtpmail
+depends on being given the token directly.  I simply overrode it:
+
+```lisp
+(cl-defmethod smtpmail-try-auth-method
+  (process (_mech (eql xoauth2)) user password)
+  (smtpmail-command-or-throw
+   process
+   (let* (
+          ;; Get the auth entry manually so we can get the other secrets
+          (auth (car (auth-source-search :user user :password password)))
+          ;; Get token
+          (token (get-access-token auth)))
+     (concat "AUTH XOAUTH2 "
+             (base64-encode-string
+              (concat "user=" user "\1auth=Bearer " token "\1\1") t)))))
+```
+
+This is a little crude: firstly we repeat the search smtpmail has already done
+in order to get the whole auth-source plist; then we get the first item (`car`),
+then we pass that up.  Since refresh tokens are effectively unique, and I don't
+have multiple accounts per fully-qualified username anyhow, collisions won't
+occur, but this is still ugly, as the original search was able to use `:host`
+(stored in the auth-source file as `machine`, because... well...).
+
+Other than that it's identical to the function shipped with `smtpmail`.
+
+Currently offlineimap gets its refresh token from one place, and emacs from
+another. It might be better to read the refresh token from the same file in both
+cases, in case we ever need to change it. Reading file contents is surprisingly
+[odd in emacs](https://stackoverflow.com/questions/34432246/):
 
 ```lisp
 (with-temp-buffer
@@ -161,19 +200,26 @@ change it it's easier.  Reading file contents is surprisingly [odd in emacs](htt
   )
 ```
 
+On the other hand, I don't think I'll be at Durham long enough for them to
+refresh the refresh token.
+
 ## Legality
 
-So with the aid of Thunderbird's not-so-secret application secret and a glorious
-hack in `.authinfo.gpg` we can send and receive email.  Is this legal?
-According to some claims in that thread, possibly not: apparently developers are
-not supposed to share their app secret, although how they are supposed to avoid
-doing so---since after all the application does need to *use* it, and it runs on
-the user's machine, so intercepting it will be very easy---is unclear.
-Thunderbird apparently got round this by registering the app with the Legal
-Person of the organisation.  Whether that was to avoid being sued individually,
-or to claim that they only shared it with themselves, I don't know.  In any case
-Micro$oft apparently don't directly forbid 'embedding the application secret in
-an opensource application' unlike Google.
+So with the aid of Thunderbird's not-so-secret application secret we can send
+and receive email. Is this legal? According to some claims in that thread,
+possibly not: apparently developers are not supposed to share their app secret,
+although how they are supposed to avoid doing so---since after all the
+application does need to *use* it, and it runs on the user's machine, so
+intercepting it will be very easy---is unclear. Thunderbird apparently got round
+this by registering the app with the Legal Person of the organisation. Whether
+that was to avoid being sued individually, or to claim that they only shared it
+with themselves, I don't know. In any case Micro$oft apparently don't directly
+forbid 'embedding the application secret in an opensource application' unlike
+Google.
 
 In the longer run, the obvious solution is to host one's own email server and
 stop worrying about all this.
+
+[^1]: A previous version of this post suggested it did, but I had not realised
+    emacs caches secrets.  `(auth-source-forget-all-cached)` will get you back
+    to a pristine state for testing.
