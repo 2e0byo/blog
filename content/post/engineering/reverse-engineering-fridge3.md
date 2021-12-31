@@ -1,7 +1,7 @@
 ---
 title: "Reverse Engineering a Fridge: Part 3"
 date: 2021-04-18T20:04:40+01:00
-draft: true
+draft: false
 categories: ["Engineering"]
 ---
 
