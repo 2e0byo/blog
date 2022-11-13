@@ -327,6 +327,12 @@ shouldn't have write access to the server.
 
 And watch out for portugese IRC bots.  You don't know where they've been.
 
+## Postscriptum
+
+Ah, it's [this
+thing](https://yoroi.company/research/outlaw-is-back-a-new-crypto-botnet-targets-european-organizations/).
+I guess I don't have to reverse engineer anything---it really is just a miner.
+
 
 
 
