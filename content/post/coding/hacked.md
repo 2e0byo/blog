@@ -17,6 +17,8 @@ supposed to last ten minutes.  I suppose I must have been called away.
 
 Earlier I came to the computer to find this:
 
+{{<figure src="/img/hacked.png">}}
+
 Well that's not good.  What on earth is `kswapd0` complaining about?  There's
 plenty of ram.  Must be a pessimal case from a memory leak in the browser;
 although curiously toggling swap (`swapoff -a` and then `swapon -a`) didn't seem
