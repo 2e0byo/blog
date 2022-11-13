@@ -155,7 +155,7 @@ Also, DRY, Russian hackers.
 
 `file kswapd0` tells us it's a binary, so we'll come back to that one.
 
-### 'Obfuscated' Italian Perl
+### 'Obfuscated' Portugese Perl
 
 Meanwhile, what about `b`?
 
