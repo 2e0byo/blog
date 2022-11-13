@@ -226,8 +226,9 @@ $SIG{'PS'} = 'IGNORE';
 This is not *much* better than the obfuscated string before.  Really,
 obfuscating perl is a bit of a joke---it's hard enough to read on a good day.
 But these programmers have gone a step further.  They have used *portugese*.
-Definitely not Russian hackers, then.  No russian would write
-`die "Problema com o fork: $!" unless defined($pid);`.
+Definitely not Russian hackers, then.  No russian would write `die "Problema com
+o fork: $!" unless defined($pid);`.  (No sensible programmer would write "die!
+(unless everything worked)".  What kind of pessimism is that?!)
 
 What follows is an IRC bot, in a horrible language (perl, not portugese) which
 someone has tried hard to make readable with indentation and all the other
