@@ -200,7 +200,9 @@ and it seems to connect the second time round.
 
 Then there's LetsEncrypt for ssl, and all the rest.  Quick?  No.  Easier than
 building a bunch of scripts?  Barely.  Will just work if I don't tinker with it?
-Yes---which is more than you can say for anything home-rolled...
+Yes---which is more than you can say for anything home-rolled.  More to the
+point *it has an app*.  And now I can turn the lights on with my phone when
+nobody's even in the house!  Beat that, light switches.
 
 [^1]: Even more fun: some of these aren't async functions at all, but 'async
     friendly callbacks', whatever they are.
