@@ -28,7 +28,7 @@ prevent you e.g. turning the lights on with the switch.  Everyone needs a hobby.
 
 Anyhow, I didn't set out to do Home Automation.  Above all not with Home
 Assistant.  But we do have a towel radiator---because otherwise the towels don't
-try and go musty---so naturally I stuck a timer on it for when we forgot to turn
+dry and go musty---so naturally I stuck a timer on it for when we forgot to turn
 it off.  But that timer was (because I am lazy) written in micropython and
 running on an esp8266, and to justify the use of a whole SoC with wifi and
 bluetooth to turn a radiator on for 45 minutes I gave it a REST-like API.  Then
