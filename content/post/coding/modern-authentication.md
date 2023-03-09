@@ -196,8 +196,7 @@ cases, in case we ever need to change it. Reading file contents is surprisingly
 ```lisp
 (with-temp-buffer
   (insert-file-contents "path/to/file")
-  (buffer-string)
-  )
+  (buffer-string))
 ```
 
 On the other hand, I don't think I'll be at Durham long enough for them to
@@ -219,6 +218,13 @@ Google.
 
 In the longer run, the obvious solution is to host one's own email server and
 stop worrying about all this.
+
+## Update
+
+I got fed up with holding state in multiple places and wrote
+[2e0byo/email](https://github.com/2e0byo/email) to handle getting, updating and
+formatting tokens.  Since then Thunderbird have moved to a public auth flow and
+no longer have a 'secret', so I guess that concern is now moot.
 
 [^1]: A previous version of this post suggested it did, but I had not realised
     emacs caches secrets.  `(auth-source-forget-all-cached)` will get you back
