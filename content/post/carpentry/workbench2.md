@@ -41,7 +41,7 @@ nailed:
 {{<figure src="/img/workbench2/legs-notched.jpg">}}
 
 The top cross piece had, I think, to be ripped to 6" from an 8" plank, which is
-rather hard work, particularly without a proper bench or the a decent ripsaw.
+rather hard work, particularly without a proper bench or a decent ripsaw.
 But with the £5 construction site saw we got there.  There are two runners on
 top of the legs:
 
